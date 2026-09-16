@@ -8,6 +8,7 @@ import {
   MessageCircle,
   ArrowUp,
 } from "lucide-react";
+import { StarMark } from "./common/StarMark";
 import { generateGeneralWhatsAppLink } from "@/data/plans";
 
 export const Footer: React.FC = () => {
@@ -28,11 +29,9 @@ export const Footer: React.FC = () => {
           {/* Brand & Location Column */}
           <div className="lg:col-span-5 flex flex-col items-start">
             <div className="flex items-center gap-3 mb-4">
-              <img
-                src="/images/logo-star-conectados.png"
-                alt="Logo Star Conectados"
-                className="h-10 w-auto object-contain"
-              />
+              <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-2xl bg-white/[0.05] border border-white/10 backdrop-blur-md flex items-center justify-center shadow-md">
+                <StarMark size={26} glow />
+              </div>
               <div>
                 <span className="font-heading font-extrabold text-white text-lg tracking-tight block">
                   STAR CONECTADOS

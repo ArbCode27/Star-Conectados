@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X, ArrowRight, MessageCircle, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { StarMark } from "./common/StarMark";
 import { generateGeneralWhatsAppLink } from "@/data/plans";
 
 const NAV_LINKS = [
@@ -48,22 +49,18 @@ export const Navbar: React.FC = () => {
           {/* Logo Brand */}
           <a
             href="#hero"
-            className="flex items-center gap-3 group focus:outline-none focus-visible:ring-2 focus-visible:ring-star-blue rounded-xl"
+            className="flex items-center gap-2.5 sm:gap-3 group focus:outline-none focus-visible:ring-2 focus-visible:ring-star-blue rounded-xl"
             aria-label="Star Conectados Inicio"
           >
-            <div className="relative">
-              <img
-                src="/images/logo-star-conectados.png"
-                alt="Logo Star Conectados Fibra Óptica"
-                className="h-9 sm:h-11 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
-              />
+            <div className="relative w-10 h-10 sm:w-11 sm:h-11 rounded-2xl bg-white/[0.05] border border-white/10 backdrop-blur-md flex items-center justify-center transition-all duration-300 group-hover:scale-105 group-hover:border-star-red/50 group-hover:bg-star-red/10 group-hover:shadow-[0_0_20px_rgba(229,9,20,0.35)]">
+              <StarMark size={26} glow className="transition-transform duration-300 group-hover:rotate-12" />
             </div>
-            <div className="hidden sm:block">
-              <span className="block font-heading font-extrabold text-base tracking-tight text-white flex items-center gap-1.5">
+            <div className="flex flex-col">
+              <span className="font-heading font-extrabold text-base sm:text-lg tracking-tight text-white flex items-center gap-1.5 leading-none">
                 STAR CONECTADOS
                 <span className="inline-block w-1.5 h-1.5 rounded-full bg-star-red animate-ping" />
               </span>
-              <span className="text-[10px] text-slate-400 font-medium tracking-wider uppercase block">
+              <span className="text-[10px] text-slate-400 font-medium tracking-wider uppercase mt-1">
                 Cobertura Nacional
               </span>
             </div>
