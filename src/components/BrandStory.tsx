@@ -13,9 +13,9 @@ import { generateGeneralWhatsAppLink } from "@/data/plans";
 const STORY_PILLARS = [
   {
     icon: Compass,
-    title: "Nacidos en Cordero",
-    subtitle: "Compromiso Local Táchira",
-    desc: "No somos una corporación anónima a miles de kilómetros. Operamos desde nuestra oficina comercial en Cordero, viviendo las mismas necesidades y superándolas con ingeniería de vanguardia.",
+    title: "Conectividad Nacional",
+    subtitle: "Compromiso y Expansión",
+    desc: "Construimos una red sólida y confiable diseñada para conectar a cada familia y empresa del país, superando las limitaciones tradicionales con ingeniería y soporte de vanguardia.",
   },
   {
     icon: Lightbulb,
@@ -73,7 +73,7 @@ export const BrandStory: React.FC = () => {
                 {/* Bottom Quote Overlay */}
                 <div className="absolute bottom-4 inset-x-4 p-4 rounded-2xl bg-star-navy-950/90 backdrop-blur-md border border-white/10">
                   <p className="text-xs sm:text-sm text-slate-200 font-light italic leading-relaxed">
-                    "La tecnología no se trata solo de cables y megabits, sino de acercar a las familias, potenciar a los estudiantes e impulsar a cada emprendedor tachirense."
+                    "La tecnología no se trata solo de cables y megabits, sino de acercar a las familias, potenciar a los estudiantes e impulsar a cada emprendedor y empresa."
                   </p>
                   <span className="text-[11px] font-heading font-semibold text-star-blue-light mt-2 block">
                     — Manifiesto Star Conectados
@@ -167,12 +167,12 @@ export const BrandStory: React.FC = () => {
             >
               <Button asChild variant="hero" size="lg" className="shadow-star-glow">
                 <a
-                  href={generateGeneralWhatsAppLink("¡Hola! Quiero conocer más sobre Star Conectados y agendar una visita a la oficina.")}
+                  href={generateGeneralWhatsAppLink("¡Hola! Quiero conocer más sobre los servicios y cobertura de Star Conectados.")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2"
                 >
-                  <span>Conoce nuestra oficina en Cordero</span>
+                  <span>Habla con nuestro equipo comercial</span>
                   <ArrowRight className="w-4 h-4" />
                 </a>
               </Button>

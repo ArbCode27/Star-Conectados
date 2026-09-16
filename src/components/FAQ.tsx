@@ -51,7 +51,7 @@ export const FAQ: React.FC = () => {
             className="mt-4 text-base sm:text-lg text-slate-400 font-light"
           >
             Todo lo que necesitas saber sobre nuestra fibra óptica, formas de pago,
-            tiempos de instalación y atención técnica en Cordero.
+            tiempos de instalación y atención técnica a nivel nacional.
           </motion.p>
         </div>
 
@@ -84,7 +84,7 @@ export const FAQ: React.FC = () => {
               ¿Tienes alguna otra consulta o caso especial?
             </h4>
             <p className="text-xs sm:text-sm text-slate-400 font-light mt-1">
-              Nuestro equipo en la oficina de Cordero te responde directamente sin demoras.
+              Nuestro equipo de soporte y atención al cliente te responde directamente sin demoras.
             </p>
           </div>
 

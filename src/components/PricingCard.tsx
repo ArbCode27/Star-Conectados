@@ -133,7 +133,7 @@ export const PricingCard: React.FC<PricingCardProps> = ({ plan }) => {
           </Button>
 
           <p className="text-[11px] text-center text-slate-500 mt-3 font-light">
-            Instalación rápida en Cordero · Sin cláusula de permanencia forzosa
+            Instalación técnica certificada · Sin cláusula de permanencia forzosa
           </p>
         </div>
       </div>

@@ -23,12 +23,12 @@ const ARCHITECTURE_STEPS = [
     title: "Red Óptica FTTH",
     subtitle: "Tendido 100% Fibra",
     icon: Radio,
-    desc: "Hilos de fibra pura resistentes a interferencias climáticas y electromagnéticas en Cordero.",
+    desc: "Hilos de fibra pura resistentes a interferencias climáticas y electromagnéticas.",
   },
   {
     step: "03",
     title: "Nodo Central Star",
-    subtitle: "Datacenter Táchira",
+    subtitle: "Datacenter & Backbone",
     icon: Server,
     desc: "Enrutamiento perimetral con fuentes de poder ininterrumpidas (UPS industriales) y respaldo autónomo.",
   },
@@ -118,7 +118,7 @@ export const Technology: React.FC = () => {
                     <div className="flex items-center gap-2">
                       <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
                       <span className="text-xs font-mono font-bold text-white uppercase tracking-wider">
-                        Nodo Cordero Central
+                        Nodo Central de Red
                       </span>
                     </div>
                     <span className="text-[11px] text-slate-400 font-mono mt-0.5 block">

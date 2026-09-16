@@ -57,7 +57,7 @@ export const Pricing: React.FC = () => {
             className="mt-4 text-base sm:text-lg text-slate-400 font-light"
           >
             Sin letras pequeñas. Todos los planes incluyen velocidad simétrica,
-            equipamiento Wi-Fi y soporte técnico presencial en Cordero, Táchira.
+            equipamiento Wi-Fi y soporte técnico especializado a nivel nacional.
           </motion.p>
 
           {/* Category Toggle Tabs */}
@@ -129,7 +129,7 @@ export const Pricing: React.FC = () => {
                 ¿Necesitas un enlace dedicado para una gran empresa o institución?
               </h4>
               <p className="text-sm text-slate-400 font-light mt-0.5">
-                Diseñamos troncales de fibra a la medida con IP fija y SLA personalizado para el Táchira.
+                Diseñamos troncales de fibra a la medida con IP fija y SLA personalizado a nivel nacional.
               </p>
             </div>
           </div>
@@ -140,7 +140,7 @@ export const Pricing: React.FC = () => {
             className="border-white/20 hover:border-star-blue text-sm shrink-0"
           >
             <a
-              href={generateGeneralWhatsAppLink("¡Hola! Me interesa solicitar una cotización para un enlace dedicado corporativo en el Táchira.")}
+              href={generateGeneralWhatsAppLink("¡Hola! Me interesa solicitar una cotización para un enlace dedicado corporativo a nivel nacional.")}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2"

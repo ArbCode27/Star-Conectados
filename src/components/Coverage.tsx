@@ -26,7 +26,7 @@ export const Coverage: React.FC = () => {
     const matched = COVERAGE_ZONES.find(
       (z) =>
         z.name.toLowerCase().includes(query) ||
-        z.municipality.toLowerCase().includes(query) ||
+        z.region.toLowerCase().includes(query) ||
         z.description.toLowerCase().includes(query)
     );
 
@@ -43,8 +43,8 @@ export const Coverage: React.FC = () => {
   const generateCoverageWhatsAppLink = (zoneName?: string) => {
     const text = encodeURIComponent(
       `¡Hola Star Conectados! 📍 Deseo consultar factibilidad técnica de instalación en: *${
-        zoneName || searchQuery || "mi sector en Cordero/Táchira"
-      }*. ¿Tienen puertos disponibles?`
+        zoneName || searchQuery || "mi zona o ciudad"
+      }*. ¿Tienen cobertura y puertos disponibles?`
     );
     return `https://wa.me/${WHATSAPP_PHONE}?text=${text}`;
   };
@@ -66,7 +66,7 @@ export const Coverage: React.FC = () => {
           >
             <MapPin className="w-4 h-4 text-star-red" />
             <span className="text-xs font-semibold text-slate-300 uppercase tracking-widest">
-              Despliegue Territorial
+              Despliegue a Nivel Nacional
             </span>
           </motion.div>
 
@@ -87,8 +87,8 @@ export const Coverage: React.FC = () => {
             transition={{ delay: 0.2 }}
             className="mt-4 text-base sm:text-lg text-slate-400 font-light"
           >
-            Nuestra oficina física y red troncal nacen en Cordero, expandiéndose con fibra óptica
-            directa hacia cada rincón del municipio Andrés Bello y zonas del Táchira.
+            Nuestra red troncal de fibra óptica de alta capacidad se despliega estratégicamente a nivel
+            nacional, conectando hogares, comercios y empresas con máxima velocidad y estabilidad.
           </motion.p>
         </div>
 
@@ -109,7 +109,7 @@ export const Coverage: React.FC = () => {
                 type="text"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="Ingresa tu sector o calle (Ej: Casco Central, El Abejal, Torbes...)"
+                placeholder="Ingresa tu ciudad, estado o zona (Ej: Caracas, Valencia, San Cristóbal, Maracaibo...)"
                 className="w-full bg-transparent text-sm sm:text-base text-white placeholder-slate-400 focus:outline-none py-3"
               />
             </div>
@@ -126,8 +126,8 @@ export const Coverage: React.FC = () => {
 
           {/* Quick Clickable Suggestions */}
           <div className="flex flex-wrap items-center justify-center gap-2 mt-4 text-xs text-slate-400">
-            <span className="font-medium text-slate-500">Sectores frecuentes:</span>
-            {["Casco Central", "El Abejal", "Las Delicias", "Urb. Torbes", "La Ahumada"].map(
+            <span className="font-medium text-slate-500">Zonas frecuentes:</span>
+            {["Gran Caracas", "Valencia", "San Cristóbal", "Maracaibo", "Lechería", "Puerto Ordaz"].map(
               (sector) => (
                 <button
                   key={sector}
@@ -261,7 +261,7 @@ export const Coverage: React.FC = () => {
                   <div>
                     <div className="flex items-center justify-between mb-3">
                       <span className="text-[10px] font-mono uppercase tracking-wider text-slate-400">
-                        {zone.municipality}
+                        {zone.region}
                       </span>
                       <span
                         className={`text-[10px] font-semibold px-2 py-0.5 rounded-full border ${

@@ -48,7 +48,7 @@ export const FinalCTA: React.FC = () => {
 
               <p className="text-base sm:text-xl text-slate-300 font-light leading-relaxed max-w-xl mb-10">
                 Da el siguiente paso. Disfruta de la velocidad de la fibra óptica simétrica,
-                baja latencia y la cercanía de un equipo humano listo para atenderte en Cordero, Táchira.
+                baja latencia y la atención de un equipo humano listo para acompañarte en todo momento.
               </p>
 
               {/* Action Buttons */}
@@ -93,7 +93,7 @@ export const FinalCTA: React.FC = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="w-2 h-2 rounded-full bg-star-red animate-ping" />
-                  <span>Oficina Cordero abierta al público</span>
+                  <span>Atención personalizada y cobertura nacional</span>
                 </div>
               </div>
 
@@ -109,7 +109,7 @@ export const FinalCTA: React.FC = () => {
                 {/* Astronaut Support Advisor Render */}
                 <img
                   src="/images/astronaut-support-desk.png"
-                  alt="Asesor Star Conectados listo para atenderte en Cordero"
+                  alt="Asesor Star Conectados listo para atenderte"
                   className="relative z-10 w-full h-full object-contain filter drop-shadow-[0_20px_35px_rgba(23,75,255,0.35)] transform hover:scale-105 transition-transform duration-500"
                 />
 

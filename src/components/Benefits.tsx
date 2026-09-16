@@ -23,16 +23,16 @@ const BENEFITS = [
     description:
       "Trazados de fibra de alta resistencia y servidores enrutados para garantizar un ping inferior a 15ms en gaming, streaming y videollamadas.",
     stats: "<14 ms",
-    statsLabel: "Latencia en Cordero",
+    statsLabel: "Latencia ultra baja",
     accentColor: "rgba(0, 242, 255, 0.25)",
     borderColor: "rgba(0, 242, 255, 0.5)",
   },
   {
     icon: HeartHandshake,
     title: "Soporte Humano y Cercano",
-    badge: "Oficina en Cordero",
+    badge: "Soporte 24/7",
     description:
-      "Nuestra gente te atiende de tú a tú. Estamos ubicados físicamente en Cordero, Táchira, listos para resolver cualquier consulta en minutos.",
+      "Nuestra gente te atiende de tú a tú. Un equipo técnico y humano calificado listo para responder a cualquier requerimiento en minutos.",
     stats: "24/7",
     statsLabel: "Monitoreo & WhatsApp",
     accentColor: "rgba(229, 9, 20, 0.25)",

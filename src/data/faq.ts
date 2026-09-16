@@ -10,7 +10,7 @@ export const FAQ_ITEMS: FAQItem[] = [
     id: "faq-1",
     question: "¿Cómo puedo contratar el servicio de Star Conectados?",
     answer:
-      "Contratar es muy sencillo y rápido: puedes hacer clic en cualquiera de nuestros botones de WhatsApp o visitar nuestra oficina comercial en Cordero. Uno de nuestros asesores verificará la factibilidad técnica en tu dirección y agendará la instalación en un lapso habitual de 24 a 48 horas.",
+      "Contratar es muy sencillo y rápido: puedes hacer clic en cualquiera de nuestros canales de WhatsApp o comunicarte con nuestro equipo comercial. Uno de nuestros asesores verificará la factibilidad técnica en tu dirección y agendará la instalación en un lapso habitual de 24 a 48 horas.",
     category: "contratacion",
   },
   {
@@ -22,23 +22,23 @@ export const FAQ_ITEMS: FAQItem[] = [
   },
   {
     id: "faq-3",
-    question: "¿En qué zonas tienen cobertura en el Táchira?",
+    question: "¿En qué zonas y ciudades tienen cobertura a nivel nacional?",
     answer:
-      "Nuestra cobertura principal abarca el municipio Andrés Bello (Cordero: Casco Central, El Abejal, Las Delicias, Torbes, La Ahumada, San Rafael y sectores aledaños), extendiéndonos con proyectos activos hacia nuevas zonas del estado Táchira. Puedes consultar la disponibilidad exacta escribiéndonos tu punto de referencia.",
+      "Contamos con despliegue de fibra óptica y presencia en constante expansión a nivel nacional en las principales regiones del país, cubriendo sectores residenciales, comerciales y parques industriales. Puedes consultar la disponibilidad exacta en tu calle o zona escribiéndonos directamente por WhatsApp.",
     category: "contratacion",
   },
   {
     id: "faq-4",
-    question: "¿Cómo solicito soporte técnico o asistencia presencial?",
+    question: "¿Cómo solicito soporte técnico o asistencia?",
     answer:
-      "Cuentas con atención técnica humana directa: a través de nuestra línea de WhatsApp 24/7, canal telefónico de emergencias de red o de manera presencial en nuestra Oficina Comercial de Cordero. No dependes de bots interminables ni esperas burocráticas.",
+      "Cuentas con atención técnica humana directa: a través de nuestra línea de WhatsApp 24/7, canal telefónico de monitoreo y soporte técnico especializado. No dependes de bots interminables ni esperas burocráticas.",
     category: "tecnico",
   },
   {
     id: "faq-5",
     question: "¿Cuáles son los métodos de pago aceptados?",
     answer:
-      "Aceptamos múltiples métodos de pago para tu máxima comodidad: Pago Móvil, transferencias bancarias en bolívares (tasa BCV), Zelle, efectivo en divisas en oficina comercial, Binance Pay (USDT) y puntos de venta con tarjeta de débito/crédito.",
+      "Aceptamos múltiples métodos de pago para tu máxima comodidad: Pago Móvil, transferencias bancarias en bolívares (tasa oficial BCV), Zelle, efectivo en divisas, Binance Pay (USDT) y puntos de venta con tarjeta de débito/crédito.",
     category: "pagos",
   },
   {

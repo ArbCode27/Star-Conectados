@@ -56,7 +56,7 @@ export const Hero: React.FC = () => {
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
                 </span>
                 <span className="text-xs font-semibold text-slate-200 tracking-wide uppercase">
-                  Fibra Óptica Pura · Cordero, Táchira
+                  Fibra Óptica Pura · Cobertura Nacional
                 </span>
                 <span className="text-star-blue-light text-xs font-bold">FTTH</span>
               </div>
@@ -88,7 +88,7 @@ export const Hero: React.FC = () => {
               className="text-lg sm:text-xl text-slate-300 max-w-2xl font-light leading-relaxed mb-8 sm:mb-10"
             >
               Internet de alta velocidad y latencia ultrabaja para tu hogar y tu negocio.
-              Estabilidad garantizada por fibra óptica directa, respaldada con soporte humano local en Cordero.
+              Estabilidad garantizada por fibra óptica directa, respaldada con atención técnica especializada.
             </motion.p>
 
             {/* Action CTAs */}
@@ -220,7 +220,7 @@ export const Hero: React.FC = () => {
                     </div>
                     <div>
                       <div className="text-[11px] uppercase tracking-wider text-slate-400 font-semibold">
-                        Latencia Táchira
+                        Latencia Red
                       </div>
                       <div className="text-sm font-heading font-bold text-white flex items-center gap-1.5">
                         <span>14 ms</span>
@@ -254,7 +254,7 @@ export const Hero: React.FC = () => {
                     </div>
                   </motion.div>
 
-                  {/* Floating Hologram Chip 3: Soporte Cordero */}
+                  {/* Floating Hologram Chip 3: Soporte Nacional */}
                   <motion.div
                     animate={{
                       y: [0, -6, 0],
@@ -265,7 +265,7 @@ export const Hero: React.FC = () => {
                     className="hidden sm:flex absolute -bottom-3 left-10 z-20 bg-star-navy-800/80 backdrop-blur-md border border-white/10 px-3.5 py-1.5 rounded-full items-center gap-2 text-xs text-slate-300"
                   >
                     <span className="w-2 h-2 rounded-full bg-star-red" />
-                    <span>Oficina en Cordero abierta para ti</span>
+                    <span>Conectividad y soporte a nivel nacional</span>
                   </motion.div>
 
                 </div>

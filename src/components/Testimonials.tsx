@@ -43,7 +43,7 @@ export const Testimonials: React.FC = () => {
             transition={{ delay: 0.2 }}
             className="mt-4 text-base sm:text-lg text-slate-400 font-light"
           >
-            Descubre cómo hogares, profesionales y empresas en Cordero y el Táchira transformaron su
+            Descubre cómo hogares, profesionales y empresas en todo el país transformaron su
             manera de navegar y trabajar.
           </motion.p>
         </div>

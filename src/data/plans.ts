@@ -31,7 +31,7 @@ export const INTERNET_PLANS: InternetPlan[] = [
       "150 Mbps de velocidad simétrica real",
       "Navegación ilimitada sin límites de descarga",
       "Streaming HD en múltiples pantallas",
-      "Soporte técnico local en Cordero",
+      "Soporte técnico directo y monitoreo 24/7",
       "Instalación con fibra drop de alta resistencia",
     ],
     recommendedFor: "Streaming, redes sociales y navegación familiar fluida",
@@ -120,7 +120,7 @@ export const INTERNET_PLANS: InternetPlan[] = [
       "Dirección IP Pública Fija disponible",
       "SLA de servicio del 99.9% de uptime",
       "Canal prioritario en servidor y peering internacional",
-      "Ejecutivo de soporte técnico asignado en Táchira",
+      "Ejecutivo de soporte técnico asignado",
     ],
     recommendedFor: "Empresas con servidores propios, sedes múltiples y software en la nube",
   },
@@ -130,7 +130,7 @@ export const WHATSAPP_PHONE = "584147573880"; // Configurable WhatsApp contact
 
 export const generateWhatsAppPlanLink = (planName: string, speed: number): string => {
   const text = encodeURIComponent(
-    `¡Hola Star Conectados! 🚀 Vi su página web y me gustaría contratar el *${planName}* de *${speed} Mbps* en Cordero / Táchira. ¿Podrían darme más información de disponibilidad?`
+    `¡Hola Star Conectados! 🚀 Vi su página web y me gustaría consultar disponibilidad y contratar el *${planName}* de *${speed} Mbps*. ¿Podrían brindarme información para mi zona?`
   );
   return `https://wa.me/${WHATSAPP_PHONE}?text=${text}`;
 };

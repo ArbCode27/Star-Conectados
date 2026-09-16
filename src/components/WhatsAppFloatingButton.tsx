@@ -23,7 +23,7 @@ export const WhatsAppFloatingButton: React.FC = () => {
             </button>
           </div>
           <p className="text-xs text-slate-300 font-light leading-relaxed mb-3">
-            ¿Quieres saber si tenemos cobertura en tu calle de Cordero? Escríbenos ahora mismo.
+            ¿Quieres consultar cobertura y disponibilidad en tu zona o ciudad? Escríbenos ahora mismo.
           </p>
           <a
             href={generateGeneralWhatsAppLink("¡Hola! Me gustaría consultar disponibilidad de fibra en mi sector.")}

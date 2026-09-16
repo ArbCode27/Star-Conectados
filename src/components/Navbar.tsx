@@ -54,7 +54,7 @@ export const Navbar: React.FC = () => {
             <div className="relative">
               <img
                 src="/images/logo-star-conectados.png"
-                alt="Logo Star Conectados Cordero Táchira"
+                alt="Logo Star Conectados Fibra Óptica"
                 className="h-9 sm:h-11 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
               />
             </div>
@@ -64,7 +64,7 @@ export const Navbar: React.FC = () => {
                 <span className="inline-block w-1.5 h-1.5 rounded-full bg-star-red animate-ping" />
               </span>
               <span className="text-[10px] text-slate-400 font-medium tracking-wider uppercase block">
-                Oficina Cordero · Táchira
+                Cobertura Nacional
               </span>
             </div>
           </a>
@@ -105,7 +105,7 @@ export const Navbar: React.FC = () => {
               className="group shadow-star-glow"
             >
               <a
-                href={generateGeneralWhatsAppLink("¡Hola! Quiero contratar Star Conectados en Cordero.")}
+                href={generateGeneralWhatsAppLink("¡Hola! Quiero contratar Star Conectados para mi hogar o negocio.")}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
@@ -167,7 +167,7 @@ export const Navbar: React.FC = () => {
             <div className="pt-4 mt-2 border-t border-white/10 flex flex-col gap-3">
               <div className="flex items-center gap-2 text-xs text-slate-400">
                 <span className="w-2 h-2 rounded-full bg-emerald-400" />
-                <span>Oficina Cordero - Red 100% Operativa</span>
+                <span>Red 100% Operativa a Nivel Nacional</span>
               </div>
 
               <Button
@@ -177,7 +177,7 @@ export const Navbar: React.FC = () => {
                 className="w-full justify-center"
               >
                 <a
-                  href={generateGeneralWhatsAppLink("¡Hola Star Conectados! Quiero contratar internet en Cordero.")}
+                  href={generateGeneralWhatsAppLink("¡Hola Star Conectados! Quiero contratar internet para mi zona.")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2"

@@ -58,9 +58,10 @@ export const StarMark: React.FC<StarMarkProps> = ({
 
 export const StarLogoText: React.FC<{
   className?: string;
-  showOffice?: boolean;
+  showSubtitle?: boolean;
+  subtitle?: string;
   light?: boolean;
-}> = ({ className, showOffice = true, light = false }) => {
+}> = ({ className, showSubtitle = true, subtitle = "Cobertura Nacional", light = false }) => {
   return (
     <div className={cn("flex flex-col items-start leading-none select-none", className)}>
       <div className="flex items-center gap-1 font-heading font-extrabold tracking-tighter text-2xl sm:text-3xl">
@@ -73,10 +74,10 @@ export const StarLogoText: React.FC<{
           CONECTADOS
         </span>
       </div>
-      {showOffice && (
+      {showSubtitle && (
         <div className="flex items-center gap-1 mt-1 text-[10px] text-slate-400 font-medium tracking-wider uppercase">
           <span className="inline-block w-1.5 h-1.5 rounded-full bg-star-red animate-pulse" />
-          <span>Oficina Cordero · Táchira</span>
+          <span>{subtitle}</span>
         </div>
       )}
     </div>

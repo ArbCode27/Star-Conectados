@@ -30,7 +30,7 @@ export const Footer: React.FC = () => {
             <div className="flex items-center gap-3 mb-4">
               <img
                 src="/images/logo-star-conectados.png"
-                alt="Logo Star Conectados Cordero Táchira"
+                alt="Logo Star Conectados"
                 className="h-10 w-auto object-contain"
               />
               <div>
@@ -45,19 +45,19 @@ export const Footer: React.FC = () => {
 
             <p className="text-sm text-slate-400 font-light leading-relaxed max-w-md mb-6">
               Empresa proveedora de internet de alta velocidad y servicios de telecomunicaciones por
-              fibra óptica pura (FTTH) en Cordero, municipio Andrés Bello y el estado Táchira.
+              fibra óptica pura (FTTH) con infraestructura y cobertura a nivel nacional.
             </p>
 
             <div className="flex items-start gap-2.5 text-xs text-slate-300">
               <MapPin className="w-4 h-4 text-star-red shrink-0 mt-0.5" />
               <span>
-                <strong className="text-white">Oficina Comercial Cordero:</strong> Casco Central, Cordero, Municipio Andrés Bello, Estado Táchira, Venezuela.
+                <strong className="text-white">Presencia y Cobertura:</strong> Despliegue de red y atención comercial en todo el territorio nacional, Venezuela.
               </span>
             </div>
 
             <div className="mt-4 inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/25 text-emerald-400 text-xs font-mono font-medium">
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
-              <span>Red troncal 100% operativa en Táchira</span>
+              <span>Red troncal 100% operativa a nivel nacional</span>
             </div>
           </div>
 
@@ -113,7 +113,7 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <a href="#cobertura" className="hover:text-white transition-colors">
-                  Sectores de Cordero
+                  Zonas y Ciudades
                 </a>
               </li>
               <li>
@@ -207,7 +207,7 @@ export const Footer: React.FC = () => {
           </div>
 
           <div className="flex items-center gap-6">
-            <span>Cordero, Táchira · Venezuela</span>
+            <span>Venezuela · Cobertura Nacional</span>
             
             <button
               onClick={handleScrollToTop}

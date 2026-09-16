@@ -42,7 +42,7 @@ export const EXPERIENCES: ExperienceItem[] = [
     id: "remotework",
     title: "Trabajo Remoto & Deploys",
     category: "Productividad Global",
-    headline: "Conéctate al mundo desde las montañas de Cordero.",
+    headline: "Conéctate al mundo con máxima velocidad y estabilidad.",
     description:
       "Videollamadas cristalinas en Google Meet y Zoom, transferencias de archivos masivos a la nube en segundos y túneles VPN hiperestables sin cortes.",
     metric: "100%",

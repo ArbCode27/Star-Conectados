@@ -42,7 +42,7 @@ export function App() {
         {/* 6. Tecnología / Infraestructura de Fibra Óptica */}
         <Technology />
 
-        {/* 7. Cobertura Interactiva en Cordero y Táchira */}
+        {/* 7. Cobertura Interactiva a Nivel Nacional */}
         <Coverage />
 
         {/* 8. Brand Story / Narrativa del Astronauta */}
